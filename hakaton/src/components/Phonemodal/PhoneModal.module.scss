@@ -1,0 +1,33 @@
+
+.modalBody h1 {
+  color: #0B2F25;
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 20px !important;
+  text-align: center;
+}
+.modalBody h2 {
+  color: #0B2F25;
+  margin: 5px 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 22px;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  padding: 10px;
+}
+.number {
+  text-decoration: none;
+}
+.modal {
+  border-radius: 8px;
+}
+.modalClose {
+  width: 100%;
+  background: #eb5757;
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  border-radius: 1px;
+  height: 60px;
+  margin-top: 30px;
+}

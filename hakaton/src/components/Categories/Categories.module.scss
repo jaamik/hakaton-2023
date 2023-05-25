@@ -1,0 +1,37 @@
+.category {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.category_btn {
+  margin: 10px;
+  border-color: #154f40;
+  color: #154f40;
+}
+.category_btn :global(.nextui-button-text) {
+  z-index: 10;
+}
+.category_btn:hover {
+  background: #154f40;
+  color: white;
+}
+.activeCayegory {
+  background: #154f40;
+  color: white;
+}
+.icons {
+  margin: 5px 5px 0 5px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+.block_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.block_inner {
+  display: flex;
+}

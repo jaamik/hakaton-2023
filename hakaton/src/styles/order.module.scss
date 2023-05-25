@@ -1,0 +1,53 @@
+
+.block_input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.block_input input {
+  border: none;
+  height: 30px;
+  font-size: 15px;
+  border-bottom: solid 1px #d6d6d6;
+}
+
+.block_input input:focus {
+  outline: 0;
+  outline-offset: 0;
+  border-bottom: solid 1px #59c3d1;
+}
+
+.block_input h5 {
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+.order_block {
+  width: 80%;
+}
+.order_inner {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.btnOrder {
+  margin-top: 20px;
+  background: red;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+}
+.btnOrder:hover {
+  background: #7CC832;
+  transition: 0.3s;
+}
+
+.ordered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}

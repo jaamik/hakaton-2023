@@ -1,0 +1,139 @@
+// .card {
+//   max-width: 400px;
+//   border-radius: 30px;
+//   background: #FF0000;
+//   display: flex;
+//   flex-direction: column;
+//   width: 280px;
+//   justify-content: center;
+//   align-items: center;
+//   margin: 10px;
+//   padding: 20px;
+// }
+
+// .card_left {
+//   width: 80%;
+//   display: flex;
+//   justify-content: center;
+// }
+// .card_left img {
+//   width: auto;
+// }
+
+// .card_right {
+//   width: 80%;
+// }
+
+// .card_right h4 {
+//   color: white;
+// }
+
+// .card_right h3 {
+//   margin: 10px 0;
+//   color: white;
+// }
+
+// .card_right span {
+//   color: white;
+// }
+
+// .card_right button {
+//   border: none;
+//   padding: 10px 15px;
+//   color: white;
+//   background: #0B2F25;
+//   border-radius: 20px;
+//   margin-top: 10px;
+//   transition: 0.4s;
+// }
+
+// .card_right button:hover {
+//   transform: scale(1.2);
+// }
+
+// .editBtn {
+//   border: none;
+//   background: #0072F5;
+//   color: white;
+//   border-radius: 5px;
+//   padding: 6px 12px;
+//   margin: 0 10px;
+// }
+
+// .icons {
+//   margin: 0 5px;
+//   width: 23px;
+//   height: 23px;
+//   cursor: pointer;
+// }
+
+.card {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  // box-shadow: rgba(121, 130, 86, 0.1) 0px 0.4px 17px;
+  padding: 20px 0;
+  border-radius: 15px;
+}
+.cardBody {
+  padding: 20px;
+}
+.foodImg {
+  width: 100%;
+  height: 135px;
+  border-radius: 12px;
+  max-height: 200px;
+}
+.card h4 {
+  color: #4f4f4f;
+  margin-bottom: 8px;
+}
+.desc {
+  color: #4f4f4f;
+  margin: 0;
+}
+.card h2 {
+  color: #0B2F25;
+  font-weight: 800;
+  margin: 10px 0;
+}
+.input {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid grey;
+  margin: 0 10px;
+  text-align: center;
+  color: #4F4F4F;
+  font-weight: 600;
+  font-size: 22px;
+}
+.minus {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edits {
+  // style={{ display: 'flex', justifyContent: 'end', borderRadius: 'none' }}
+  display: flex;
+  justify-content: end;
+  margin: 0 0 10px 0;
+}
+.icons {
+  margin: 0 5px;
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+}

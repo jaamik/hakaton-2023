@@ -1,0 +1,67 @@
+.navbar :global(.nextui-c-egxOLa) {
+  display: flex;
+  justify-content: center ;
+}
+.header_nav :global(.nextui-c-iTPCAT-dusCa-isOpen-true) {
+  height: 35vh;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 20;
+}
+.test :global(.nextui-c-lesPJm-irnIw-css .nextui-c-lesPJm) {
+  position: sticky !important;
+  top: 0px !important;
+  z-index: 20 !important;
+}
+.navbar__inner :global(.nextui-c-yrlUe){
+  font-size: 20px;
+}
+.navbar__inner_brand {
+  width: 10%;
+}
+
+.navbar__inner_item {
+  color: black;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+.navbar__inner_item_active {
+  color: #219653;
+  border-bottom: 1px solid #219653;
+}
+.navbar__inner_item button {
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background: #7CC832;
+  color: white;
+  margin-left: -25px;
+  margin-top: 40px;
+  font-size: 16px;
+}
+.iconBasket {
+  max-width: 38px;
+  max-height: 38px;
+}
+.basketCount {
+  color: green;
+}
+.test_test {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 30 !important;
+}
+
+@media screen and (min-width: 651px) {
+  .test {
+    display: none;
+  }
+}

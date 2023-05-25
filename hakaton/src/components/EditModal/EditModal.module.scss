@@ -1,0 +1,13 @@
+.inputs {
+  margin: 5px 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form input {
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 4px;
+  height: 30px;
+  padding: 0 4px;
+}
